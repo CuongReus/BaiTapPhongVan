@@ -1,0 +1,114 @@
+/*Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+}  
+/* Header */
+.header {
+    margin: 20px 0px;
+}
+.logo .logo2 {
+    width: 75%;
+    margin-left: 57px;
+}
+.logo:first-child {
+    border-right: 1px solid #00000038;
+    float: right;
+}
+.logo .logo1 {
+    width: 50%;
+}
+.header i{
+    color: #cc0404;
+}
+.header .phonenumber{
+    color: #cc0404;
+    padding-left: 20px;
+}
+.register {
+    padding-left: 10px;
+    border-left: 1px solid #00000038;
+}
+.header .hotline {
+    border-left: 1px solid #00000038;
+}
+.header .switchboard {
+    border-left: 1px solid #00000038;
+}
+.header .register {
+    color: #00000038;
+}
+
+/* Menu */
+#menu ul {
+    background: black;
+    list-style-type: none;
+    text-align: center;
+  }
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+#menu a:hover, i:hover {
+    background: #cc0404;
+    color: #333;
+    transition: 0.4s;
+}
+#menu i {
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    margin-right: 100px;
+    width: 100px;
+}
+/* INTRODUCE CAR */
+.intro {
+    margin-top: -16px;
+}
+.colorbackground {
+    background-color: #cc0404;
+    z-index: -10;
+    height: 100px;
+}
+/* SLIDE */
+.slider {
+    margin-top: -65px;
+}
+.slider .item {
+    margin: 0 21px;
+}
+.slider .card-text {
+    background-color: #cc0404;
+    color: white;
+}
+.slider .card-title {
+    font-weight: 999;
+    padding-left: 10px;
+}
+.slider .card-text i {
+    margin-left: 116px;
+    font-size: 20px;
+}
+.slider .card-img-top {
+    position: relative;
+}
+.slider .info {
+    position: absolute;
+    opacity: 0;
+}
+.card:hover .info {
+    opacity: 1;
+    transition:ease-in-out 0.5s;
+}
