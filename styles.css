@@ -429,11 +429,14 @@ body {
 .news .items-newsdetail {
     float: left;
 }
+.items-newsdetail a {
+    text-decoration: none;
+}
 .news .newsdetail .image-newsdetail img {
     width: 100%;
 }
 .news .text-newsdetail {
-    background-color: #483e3ef2;
+    background-color: #000000b0;
     transform: translateY(-48px);
     color: white;
 }
@@ -442,6 +445,8 @@ body {
 }
 .news .more-newsdetail a {
     text-decoration: none;
+    color: #000;
+    font-style: italic;
 }
 /* Contact */
 .contact {
