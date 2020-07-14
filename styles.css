@@ -417,6 +417,169 @@ body {
 .news .more-newsdetail a {
     text-decoration: none;
 }
+/* Contact */
+.contact {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.contact .container {
+    width: 1200px;
+}
+.contact .home-contact {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.contact .form-register {
+    margin-top: 20px;
+}
+.form-register #phone {
+    float: left;
+    width: 240px;
+}
+.form-register #email {
+    float: left;
+    width: 250px;
+    margin-left: 50px;   
+}
+.form-register .form-check-label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+/* Phần custom checkbox này em tham khảo trên mạng ^^ */
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.25em; height: 1.25em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '\2713\0020';
+  position: absolute;
+  top: .15em; left: .22em;
+  font-size: 1.3em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px dotted #a52a2a;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 2px solid #a52a2a!important;
+}
+/* Footer */
+.footer {
+    background-color: #000;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer .container {
+    width: 1300px
+}
+.footer .top-footer {
+    border-bottom: 0.6px #b9b9b9 solid;
+    padding-bottom: 20px;
+}
+.top-footer .product-ft {
+    color: #fff;
+}
+.top-footer  .title-ft {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    color: #fff;
+}
+.product-ft .car-ft i {
+    margin: 0 5px;
+}
+.product-ft .logo-ft img{
+    float: left;
+    width: 30%;
+}
+.logo-ft {
+    margin-top: 15px;
+}
+.top-footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.support-line {
+    padding-top: 5px;
+    display: inline-block;
+}
+.top-footer .support span, .top-footer .support i {
+    color: #fff;
+    font-size: 14px;
+}
+.image-support {
+    margin: 10px 0px;
+}
+/* Bottom Footer */
+.bottom-footer {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.bottom-footer a {
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    border-right: 0.6px #b9b9b963 solid;
+}
+
 
 
 
