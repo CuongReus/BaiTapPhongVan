@@ -197,6 +197,9 @@ body {
     width: 38%;
 }
 /* Utilities */
+.utilities {
+    font-size: 14px;
+}
 .utilities .title-utiliti {
     font-size: 30px;
     padding: 20px 0 20px 0;
@@ -255,6 +258,175 @@ body {
     margin-left: 20%;
     display: inline-block;
 }
+.utilities .compare-car {
+    margin-left: 48%;
+    margin-bottom: 10px;
+}
+.utilities .name-utiliti-3 {
+    margin-left: 48%;
+    display: inline-block;
+}
+.utilities .section-center .image {
+    margin-left: -45%;
+    margin-top: 0%;
+} 
+.utilities .section-center .image-center {
+    width: 115%;
+}
+.utilities .schedule {
+    margin-left: 17%;
+    margin-bottom: 10px;
+}
+.utilities .name-utiliti-4 {
+    margin-left: 14%;
+    display: inline-block;
+}
+.utilities .receive-info {
+    margin-left: 39%;
+    margin-bottom: 10px;
+}
+.utilities .name-utiliti-5 {
+    margin-left: 35%;
+    display: inline-block;
+}
+.utilities .advice {
+    margin-left: 12%;
+    margin-bottom: 10px;
+}
+.utilities .name-utiliti-6 {
+    margin-left: 6%;
+    display: inline-block;
+}
+/* Hotlines */
+.hotlines {
+    width: 100%;
+    margin-top: 20px;
+}
+.hotlines .info-hotlines {
+    float: left;
+    width: 50%;
+}
+.hotlines .about-hotlines {
+    background-color: #2c2f34;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.hotlines .phone-hotlines {
+    background-color: #eb1b2e;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon-hotlines img {
+    position: relative;
+    margin-left: 48%;
+    margin-top: -68px;
+    width: 64px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* Service */
+.service {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.service .container {
+    width: 1300px;
+}
+.service .repairservice {
+    margin: 0 auto;
+}
+.service .repairservice .title-repairservice{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px 20px;
+}
+.service .items-repairservice {
+    float: left;
+}
+.service .heading-repairservice {
+    font-weight: bold;
+    border-bottom: #eb1b2e 1px solid;
+    padding-bottom: 5px;
+}
+.service .items-repairservice img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 162px;
+}
+.service .items-repairservice .text-repairservice {
+    font-size: 13px;
+}
+.service .items-repairservice .button-repairservice {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.button-repairservice a {
+    text-decoration: none;
+}
+.button-repairservice .color-btn {
+    background-color: #eb1b2e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+/* News */
+.news {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.news .container {
+    width: 1200px;
+}
+.news .newsdetail {
+    margin: 0 auto;
+}
+.news .newsdetail .title-newsdetail{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px 20px;
+}
+.news .items-newsdetail {
+    float: left;
+}
+.news .newsdetail .image-newsdetail img {
+    width: 100%;
+}
+.news .text-newsdetail {
+    background-color: #483e3ef2;
+    transform: translateY(-48px);
+    color: white;
+}
+.news .more-newsdetail {
+    margin-left: 490px;
+}
+.news .more-newsdetail a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
